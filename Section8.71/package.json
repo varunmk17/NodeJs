@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-app-section871",
+  "version": "1.0.0",
+  "description": "NodeJS App Section871",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
