@@ -1,0 +1,14 @@
+module.exports = function(app) {
+    app.get('/api/person/:id', function(req, res) {
+        // get from DB
+        res.json({ firstname:'Varun', lastname :'k' });
+    });
+    
+    app.post('/api/person', function(req, res) {
+        // save to DB
+    });
+    
+    app.delete('/api/person/:id', function(req, res) {
+        // delete from DB
+    });
+}
